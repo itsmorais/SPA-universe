@@ -1,0 +1,47 @@
+<style>
+  body {
+    transition-duration: 250ms;
+    background-image: url('../assets/mountains-universe-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  h1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25vh;
+  }
+
+  #homeButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 195px;
+    height: 48px;
+    margin: 0 auto;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+
+    cursor: pointer;
+  }
+
+  #homeButton:hover {
+    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
+    background-color: #ffffff;
+    color: hsla(194, 97%, 31%, 1);
+  }
+</style>
+
+
+<h1>Explore o universo</h1>
+<a id="homeButton" href="/universe" onclick="route()">Quero saber mais</a>
